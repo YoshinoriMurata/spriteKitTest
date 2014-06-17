@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1CFA4FBD-0D0A-409A-9377-68013806377C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>spriteKitTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>04FC66EF-8C34-4999-84C7-31A17F8AC27E</key>
+		<string>https://github.com/YoshinoriMurata/spriteKitTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>spriteKitTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>04FC66EF-8C34-4999-84C7-31A17F8AC27E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/YoshinoriMurata/spriteKitTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>04FC66EF-8C34-4999-84C7-31A17F8AC27E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04FC66EF-8C34-4999-84C7-31A17F8AC27E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>spriteKitTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
