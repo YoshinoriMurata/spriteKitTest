@@ -14,6 +14,7 @@
     if (self = [super initWithSize:size]) {
         //背景に色を指定
         self.backgroundColor = [UIColor blackColor];
+<<<<<<< HEAD
         //スプライトを使って追加する
         SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"tanikaze"];
         sprite.position = CGPointMake(160, 200);
@@ -34,6 +35,13 @@
         SKAction *goback = [SKAction sequence:@[move1, move2]];
         [sprite runAction:[SKAction repeatActionForever:goback]];
         
+=======
+        //ラベルを追加する
+        SKLabelNode *mySKLabel = [SKLabelNode labelNodeWithFontNamed:@"Marker Felt"];
+        mySKLabel.text = @"Hello World";
+        mySKLabel.position = CGPointMake(160, 300);
+        [self addChild:mySKLabel];
+>>>>>>> FETCH_HEAD
     }
     return self;
 }
