@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2B9CDA194FDE6C00B4E00B /* tanikaze.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B9CD9194FDE6C00B4E00B /* tanikaze.png */; };
 		8B36D129194EBBCC00F9E952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B36D128194EBBCC00F9E952 /* Foundation.framework */; };
 		8B36D12B194EBBCC00F9E952 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B36D12A194EBBCC00F9E952 /* CoreGraphics.framework */; };
 		8B36D12D194EBBCC00F9E952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B36D12C194EBBCC00F9E952 /* UIKit.framework */; };
@@ -22,6 +23,8 @@
 		8B36D14D194EBBCC00F9E952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B36D12C194EBBCC00F9E952 /* UIKit.framework */; };
 		8B36D155194EBBCC00F9E952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B36D153194EBBCC00F9E952 /* InfoPlist.strings */; };
 		8B36D157194EBBCC00F9E952 /* spriteKitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36D156194EBBCC00F9E952 /* spriteKitTestTests.m */; };
+		8B36D161194EBBE300F9E952 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B36D160194EBBE300F9E952 /* SpriteKit.framework */; };
+		8B36D164194EBC8200F9E952 /* mySKScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36D163194EBC8200F9E952 /* mySKScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B2B9CD9194FDE6C00B4E00B /* tanikaze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanikaze.png; sourceTree = "<group>"; };
 		8B36D125194EBBCC00F9E952 /* spriteKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spriteKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B36D128194EBBCC00F9E952 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8B36D12A194EBBCC00F9E952 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +59,9 @@
 		8B36D152194EBBCC00F9E952 /* spriteKitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spriteKitTestTests-Info.plist"; sourceTree = "<group>"; };
 		8B36D154194EBBCC00F9E952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B36D156194EBBCC00F9E952 /* spriteKitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spriteKitTestTests.m; sourceTree = "<group>"; };
+		8B36D160194EBBE300F9E952 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8B36D162194EBC8200F9E952 /* mySKScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mySKScene.h; sourceTree = "<group>"; };
+		8B36D163194EBC8200F9E952 /* mySKScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mySKScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B36D161194EBBE300F9E952 /* SpriteKit.framework in Frameworks */,
 				8B36D12B194EBBCC00F9E952 /* CoreGraphics.framework in Frameworks */,
 				8B36D12D194EBBCC00F9E952 /* UIKit.framework in Frameworks */,
 				8B36D129194EBBCC00F9E952 /* Foundation.framework in Frameworks */,
@@ -103,6 +111,7 @@
 		8B36D127194EBBCC00F9E952 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B36D160194EBBE300F9E952 /* SpriteKit.framework */,
 				8B36D128194EBBCC00F9E952 /* Foundation.framework */,
 				8B36D12A194EBBCC00F9E952 /* CoreGraphics.framework */,
 				8B36D12C194EBBCC00F9E952 /* UIKit.framework */,
@@ -119,6 +128,8 @@
 				8B36D13A194EBBCC00F9E952 /* Main_iPhone.storyboard */,
 				8B36D13D194EBBCC00F9E952 /* Main_iPad.storyboard */,
 				8B36D140194EBBCC00F9E952 /* ViewController.h */,
+				8B36D162194EBC8200F9E952 /* mySKScene.h */,
+				8B36D163194EBC8200F9E952 /* mySKScene.m */,
 				8B36D141194EBBCC00F9E952 /* ViewController.m */,
 				8B36D143194EBBCC00F9E952 /* Images.xcassets */,
 				8B36D12F194EBBCC00F9E952 /* Supporting Files */,
@@ -129,6 +140,7 @@
 		8B36D12F194EBBCC00F9E952 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B2B9CD9194FDE6C00B4E00B /* tanikaze.png */,
 				8B36D130194EBBCC00F9E952 /* spriteKitTest-Info.plist */,
 				8B36D131194EBBCC00F9E952 /* InfoPlist.strings */,
 				8B36D134194EBBCC00F9E952 /* main.m */,
@@ -231,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2B9CDA194FDE6C00B4E00B /* tanikaze.png in Resources */,
 				8B36D13F194EBBCC00F9E952 /* Main_iPad.storyboard in Resources */,
 				8B36D144194EBBCC00F9E952 /* Images.xcassets in Resources */,
 				8B36D13C194EBBCC00F9E952 /* Main_iPhone.storyboard in Resources */,
@@ -253,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B36D164194EBC8200F9E952 /* mySKScene.m in Sources */,
 				8B36D142194EBBCC00F9E952 /* ViewController.m in Sources */,
 				8B36D139194EBBCC00F9E952 /* AppDelegate.m in Sources */,
 				8B36D135194EBBCC00F9E952 /* main.m in Sources */,
@@ -470,6 +484,7 @@
 				8B36D15C194EBBCC00F9E952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B36D15D194EBBCC00F9E952 /* Build configuration list for PBXNativeTarget "spriteKitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +493,7 @@
 				8B36D15F194EBBCC00F9E952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
