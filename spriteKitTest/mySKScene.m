@@ -6,11 +6,17 @@
 //  Copyright (c) 2014年 Yoshinori Murata. All rights reserved.
 //
 
+#import "nextSKScene.h"
+
 #import "mySKScene.h"
+
+
 
 @interface mySKScene(){
     //調べるラベルを用意する
-    SKLabelNode *mySKLabel;
+    //SKLabelNode *mySKLabel;
+    //スタート用のラベルを用意する
+    SKLabelNode *startSKLabel;
 }
 @end
 
@@ -19,7 +25,7 @@
 -(instancetype)initWithSize:(CGSize)size{
     if (self = [super initWithSize:size]) {
         //背景に色を指定
-        self.backgroundColor = [UIColor blackColor];
+        self.backgroundColor = [UIColor brownColor];
         
         //スプライトを使って追加する
        // SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"tanikaze"];
@@ -44,10 +50,14 @@
 
         //ラベルを追加する
         //SKLabelNode *mySKLabel = [SKLabelNode labelNodeWithFontNamed:@"Marker Felt"];
-        mySKLabel = [SKLabelNode labelNodeWithFontNamed:@"Marker Felt"];
-        mySKLabel.text = @"Hello World";
-        mySKLabel.position = CGPointMake(160, 300);
-        [self addChild:mySKLabel];
+        //mySKLabel = [SKLabelNode labelNodeWithFontNamed:@"Marker Felt"];
+        //mySKLabel.text = @"Hello World";
+        //mySKLabel.position = CGPointMake(160, 300);
+        //[self addChild:mySKLabel];
+        startSKLabel = [SKLabelNode labelNodeWithFontNamed:@"AvenirNext-Heavy"];
+        startSKLabel.text = @"START";
+        startSKLabel.position = CGPointMake(160, 150);
+        [self addChild:startSKLabel];
 
     }
     return self;
@@ -59,10 +69,16 @@
     UITouch *touch = [touches anyObject];
     CGPoint location = [touch locationInNode:self];
     //ラベルがタッチされたのかどうか調べる
-    if ([mySKLabel containsPoint:location]) {
-        NSLog(@"タッチした");
+    //if ([mySKLabel containsPoint:location]) {
+    //    NSLog(@"タッチした");
+    //}
+    if ([startSKLabel containsPoint:location]){
+        //次のシーンを作り
+        nextSKScene *scene = [[nextSKScene alloc] initWithSize:self.size];
+        //ドアが開くように切り替える
+        SKTransition *transition = [SKTransition doorsOpenHorizontalWithDuration:1];
+        [self.view presentScene:scene transition:transition];
     }
 }
-
 
 @end
