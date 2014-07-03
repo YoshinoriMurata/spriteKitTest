@@ -25,6 +25,7 @@
 		8B36D157194EBBCC00F9E952 /* spriteKitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36D156194EBBCC00F9E952 /* spriteKitTestTests.m */; };
 		8B36D161194EBBE300F9E952 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B36D160194EBBE300F9E952 /* SpriteKit.framework */; };
 		8B36D164194EBC8200F9E952 /* mySKScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36D163194EBC8200F9E952 /* mySKScene.m */; };
+		8B3CFF71196296C20061717F /* nextSKScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CFF70196296C20061717F /* nextSKScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		8B36D160194EBBE300F9E952 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		8B36D162194EBC8200F9E952 /* mySKScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mySKScene.h; sourceTree = "<group>"; };
 		8B36D163194EBC8200F9E952 /* mySKScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mySKScene.m; sourceTree = "<group>"; };
+		8B3CFF6F196296C20061717F /* nextSKScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nextSKScene.h; sourceTree = "<group>"; };
+		8B3CFF70196296C20061717F /* nextSKScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nextSKScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				8B36D140194EBBCC00F9E952 /* ViewController.h */,
 				8B36D162194EBC8200F9E952 /* mySKScene.h */,
 				8B36D163194EBC8200F9E952 /* mySKScene.m */,
+				8B3CFF6F196296C20061717F /* nextSKScene.h */,
+				8B3CFF70196296C20061717F /* nextSKScene.m */,
 				8B36D141194EBBCC00F9E952 /* ViewController.m */,
 				8B36D143194EBBCC00F9E952 /* Images.xcassets */,
 				8B36D12F194EBBCC00F9E952 /* Supporting Files */,
@@ -269,6 +274,7 @@
 				8B36D164194EBC8200F9E952 /* mySKScene.m in Sources */,
 				8B36D142194EBBCC00F9E952 /* ViewController.m in Sources */,
 				8B36D139194EBBCC00F9E952 /* AppDelegate.m in Sources */,
+				8B3CFF71196296C20061717F /* nextSKScene.m in Sources */,
 				8B36D135194EBBCC00F9E952 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
